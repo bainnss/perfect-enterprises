@@ -1,6 +1,9 @@
-.test-main {
-    /* color: red; */
+
+.pe-wrapper .header-logo-image {
+    width: 100%;
+    height: 50px;
 }
+
 .services-container {
     max-width: 1024px !important;
 }
