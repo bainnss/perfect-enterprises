@@ -112,6 +112,7 @@
 @media (max-width : 580px) {
     .section-contact-text {
         text-decoration: none;
+        color: #fff;
         font-size: 20px;
     }
 }
