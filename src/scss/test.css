@@ -103,3 +103,8 @@
 .hero-figure::after {
     background: none;
 }
+@media (max-width : 580px) {
+    .section-contact-text {
+        font-size: 20px;
+    }
+}
