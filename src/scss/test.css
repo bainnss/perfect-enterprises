@@ -5,6 +5,7 @@
 .pe-wrapper .header-logo-image {
     width: 100%;
     height: 50px;
+    object-fit: contain;
 }
 
 .services-container {
@@ -119,4 +120,14 @@
       
         font-size: 20px;
     }
+}
+
+.pricing-table::before {
+    display: none;
+}
+.pricing-table-inner:hover {
+    box-shadow: 1px 1px 8px #939393;
+}
+.pricing-table-inner {
+    transition: all .3s ease;
 }
