@@ -1,7 +1,11 @@
 
+*{
+    scroll-behavior: smooth;
+}
 .pe-wrapper .header-logo-image {
     width: 100%;
     height: 50px;
+    object-fit: contain;
 }
 
 .services-container {
@@ -106,8 +110,24 @@
 .hero-figure::after {
     background: none;
 }
+  .section-contact-text {
+      text-decoration: none;
+      color: #fff;
+  }
+
 @media (max-width : 580px) {
     .section-contact-text {
+      
         font-size: 20px;
     }
+}
+
+.pricing-table::before {
+    display: none;
+}
+.pricing-table-inner:hover {
+    box-shadow: 1px 1px 8px #939393;
+}
+.pricing-table-inner {
+    transition: all .3s ease;
 }
